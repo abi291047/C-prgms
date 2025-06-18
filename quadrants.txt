@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int Quadrant;
+    int x,y;
+    cout<<"enter the numbers:";
+    cin>>x>>y;
+    if(x>0 && y>0){
+        cout<<"first quadrant";
+    }
+    else if(x<0 && y>0){
+        cout<<"second quadrant";
+    }
+    else if(x<0 && y<0){
+       cout<<"third quadrant";
+    }
+    else if(x>0 && y<0){
+        cout<<"fourth quadrant";
+    }
+    else{
+        cout<<"no quadrants";
+    
+}
+}

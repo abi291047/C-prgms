@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a,b,c;
+   cout<<"Enter three numbers:";
+   cin>>a>>b>>c;
+   int greatest;
+   if((a>b)&&(a>c))
+   {
+       greatest = a;
+   }
+       if((b>a)&&(b>c))
+       {
+           greatest = b;
+       }
+       if((c>a)&&(c>b))
+       {
+       greatest = c;
+   }
+   cout<<"the greatest number is:"<<greatest <<endl;
+   
+   
+}
