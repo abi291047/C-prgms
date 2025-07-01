@@ -1,0 +1,35 @@
+#include<iostream>
+class Node{
+ public:
+  int data;
+  Node*next;
+  Node(int val)
+{
+  data=val;
+  next=nullptr;
+}
+};
+class Singlylinkedlist{
+ private:
+     Node*head;
+ public:
+   Singlylinkedlist()
+{
+head=nullptr;  
+ } 
+ void insertAtBeg(int val)
+ {
+     Node*newNode= new Node(val);
+     newNode->next=head;
+     head=newNode;
+ }
+ };
+int main()
+{
+    Singlylinkedlist Sll;
+    Sll.insertAtBeg(5);
+    Sll.insertAtBeg(6);
+    Sll.insertAtBeg(7);
+    Sll.insertAtBeg(8);
+    
+}
