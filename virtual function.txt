@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Employee{
+   public:
+   void leave()
+   {
+       cout<<"i need 2 days of leave";}};
+       class Employee2:public Employee{
+           public:
+           void hai()
+           {
+               cout<<"hai";}
+               void reason()
+               {
+                   cout<<"going for a movie";}};
+                   int main()
+                   {
+                       Employee2 e1;e1.leave();
+                   }
